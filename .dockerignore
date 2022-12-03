@@ -1,0 +1,9 @@
+.gitignore
+.git/
+.idea/
+
+Dockerfile
+Dockerfile.*
+README.md
+
+target/

@@ -1,0 +1,9 @@
+[metadata]
+[metadata.description]
+short = "Example service."
+long = "This service is simply exemplary!"
+
+[spec]
+[spec.server]
+port = 8080
+
