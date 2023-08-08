@@ -15,7 +15,7 @@ COPY . .
 RUN cargo build --release --bin actix-hello
 
 ## Final runtime image:
-FROM alpine:latest AS runtime
+FROM alpine:3.18.3 AS runtime
 LABEL MAINTAINER=ph4n70m-nuk3r
 WORKDIR /app
 COPY --from=builder /app/target/*/release/actix-hello ./
